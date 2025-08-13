@@ -1,0 +1,26 @@
+//Harshil Nagori
+//24070123046
+#include <iostream>
+using namespace std;
+
+int main(){
+    // Arithematic operations between two pointers
+    int n = 1000;
+    int *nptr;
+    nptr = &n;
+    
+    int d = 140;
+    int *dptr;
+    dptr = &d;
+    
+    int sum = *nptr + *dptr;
+    int diff = *nptr - *dptr;
+    int prod = *nptr * *dptr;
+    int division = *nptr / *dptr;
+    cout<<"Sum :"<< sum <<endl;
+    cout<<"Difference :"<< diff <<endl;
+    cout<<"Multiplication :"<< prod <<endl;
+    cout<<"Division :"<< division <<endl;
+    return 0;
+}
+
