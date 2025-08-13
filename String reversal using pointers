@@ -1,0 +1,11 @@
+//Harshil Nagori
+//24070123046
+#include <stdio.h>
+
+int main() {
+   const char *str = "Harshil Nagori";
+    
+    printf("%s\n", str);
+
+    return 0;
+}
